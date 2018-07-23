@@ -1,16 +1,16 @@
-baseURL = "http://grahamweldon.com"
+baseURL = "http://localhost:1313"
 languageCode = "en"
-title = "Graham Weldon"
+title = "Hugo Blog"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 
 # Disqus Username
-disqusShortname = "******"
+disqusShortname = "disqus_shortname"
 
 # Google Analytics UA number
-googleAnalytics = "UA-289856-5"
+googleAnalytics = "UA-XXXXXXXX-X"
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
@@ -23,43 +23,37 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
-  name = "Posts"
-  weight = 20
-  identifier = "posts"
-  url = "/post/"
-
-[[menu.main]]
   name = "Works"
-  weight = 30
+  weight = 20
   identifier = "works"
   url = "https://github.com/laozhu"
 
 [[menu.main]]
   name = "Tags"
-  weight = 40
+  weight = 30
   identifier = "tags"
   url = "/tags/"
 
 # Add your own params here
 [params]
-  author = "Graham Weldon"
+  author = "Ritchie Zhu"
   avatar = "/img/avatar.jpg"
   seotitle = "Hugo Blog (SEO Version)"
-  subtitle = "~ Posts and Research ~"
-  description = "Personal blog site of Graham Weldon."
+  subtitle = "~ Keep It Simple & Stupid ~"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
   paginate = 10
 
   # Choose your social networks
-  email = "graham@grahamweldon.com"
-  github = "predominant"
-  twitter = "predominant"
+  email = "name@domain.com"
+  github = "github_username"
+  twitter = "twitter_username"
   linkedin = "linkedin_username"
-  # weibo = "weibo_username"
-  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  weibo = "weibo_username"
+  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   # facebook = "facebook_username"
   # google = "googlplus_id_number"
   # instagram = "instagram_username"
-  youtube = "slavitica"
+  # youtube = "youtube_username"
   # vimeo = "vimeo_username"
   # medium = "medium_username"
   # quora = "quora_username"
@@ -73,17 +67,17 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # bilibili = "bilibili_id_number"
 
   # Changyan Comments (China Only)
-  # changyan = false
-  # changyanId = "cyt3toRiB"
-  # changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+  changyan = false
+  changyanId = "cyt3toRiB"
+  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
-  # googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  # msValidate = "22596E34341DD1D17D6022C44647E587"
+  msValidate = "22596E34341DD1D17D6022C44647E587"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
