@@ -1,0 +1,62 @@
+BaseURL = "https://grahamweldon.com/"
+theme = "hugo-geo"
+relativeURLs = true
+languageCode = "en-au"
+title = "Graham Weldon"
+disqusShortname = "*****"
+paginate = 10
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	# Render the rotating globe in the sidebar
+	showglobe = false
+
+	# Include favicon
+	favicon = "favicon.ico"
+
+	# Google Analytics
+	analytics = "UA-289856-5"
+
+	# Email (optional)
+	email = "graham@grahamweldon.com"
+
+	# Header Title for the main page
+	header = "Blog posts by Graham"
+
+	# Sidebar profile picture
+	profilepic = "img/mug01.jpg"
+
+	# Title/subtitle for the sidebar
+	title = "Graham Weldon"
+	subtitle = ""
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/predominant"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/predominant"
+#	[[params.socialbuttons]]
+#	faicon = "linkedin"
+#	url = "https://linkedin.com"
+#	[[params.socialbuttons]]
+#	faicon = "google-plus"
+#	url = "https://plus.google.com/+YourID"
+
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+
+	[[params.navlinks]]
+	name = "Blog"
+	url = "posts/"
+
+	[[params.navlinks]]
+	name = "Projects"
+	url = "projects/"
