@@ -1,5 +1,5 @@
 ---
-title: "Building My Site With Cakephp - Stage 1"
+title: "Building my site with CakePHP - Stage 1"
 date: 2008-09-09T00:00:00+09:00
 highlight: true
 draft: false
