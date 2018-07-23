@@ -1,9 +1,9 @@
 ---
 title: "About"
-date: 2018-03-15T00:00:00+09:00
-highlight: true
-draft: false
-type: about
+date: "2014-04-09"
+layout: "about"
+menu: "main"
+weight: 60
 ---
 
 I'm an Australian, living and working in Tokyo, Japan.

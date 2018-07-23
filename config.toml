@@ -44,7 +44,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 [params]
   author = "Graham Weldon"
   avatar = "/img/avatar.jpg"
-  seotitle = "Hugo Blog (SEO Version)"
+  seotitle = "Graham Weldon"
   subtitle = "~ Posts and Research ~"
   description = "Personal blog site of Graham Weldon."
   paginate = 10
