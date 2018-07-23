@@ -23,13 +23,19 @@
 }
 
 .title {
-  font-size: var(--size-4);
+  font-size: var(--size-3);
   font-family: var(--family-lobster);
   font-weight: var(--weight-bold);
   margin: 1rem auto;
+  color: #999;
 
   @media screen and (max-width: 800px) {
     margin-top: 3rem;
+  }
+
+  & i {
+    font-style: normal;
+    color: var(--primary);
   }
 }
 
