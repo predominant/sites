@@ -3,6 +3,7 @@ title: "3D terrain generation with THREE.js"
 date: 2012-01-30T00:00:00+09:00
 highlight: false
 draft: false
+tags: ['threejs', 'gamedev', 'javascript']
 ---
 
 I’m increasingly interested in the use and application of Perlin and Simplex style noise generation to real world problems, and even moreso for the simulation of real world environments. This has come from my personal side projects in game development. If you’re not familiar with noise generation like Perlin and Simplex noise, a quick Google Search will show you all you need.
