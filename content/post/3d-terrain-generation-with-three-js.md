@@ -18,7 +18,7 @@ THREE.js is an awesome abstraction on various rendering techniques for browsers.
 
 The objective of this example is not to produce a real playable game. The objective was to implement a number of terrain modification techniques that I could reuse later for a game style project, and to get a reasonable render rate for terrain samples.
 
-![](/uploads/3d-terrain-01.png)
+![](/uploads/2012/01/30/3d-terrain-01.png)
 
 <!-- ### Live Demo
 
