@@ -20,7 +20,8 @@ The objective of this example is not to produce a real playable game. The object
 
 ![](/uploads/2012/01/30/3d-terrain-01.png)
 
-<!-- ### Live Demo
+<!--
+### Live Demo
 
 The image above is great, but its more fun to checkout the real demo.
 
@@ -29,7 +30,8 @@ View the demo here.
 Some good settings for terrain that looks somewhat realistic are:
 
 * Terrain Factor X: 5
-* Terrain Factor Y: 3 -->
+* Terrain Factor Y: 3
+-->
 
 ### Plane Geometry
 
