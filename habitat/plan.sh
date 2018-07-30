@@ -1,5 +1,5 @@
 pkg_name=grahamweldon-website
-pkg_origin=predominant
+pkg_origin=grahamweldon
 pkg_version="0.1.0"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=("Apache-2.0")
