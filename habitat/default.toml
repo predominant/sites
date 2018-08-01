@@ -1,6 +1,9 @@
-worker_processes = "auto"
-port = 80
-ssl-port = 443
+[http]
+port = 8080
 
-[events]
-worker_connections = 512
+[https]
+enabled = false
+port = 8081
+
+[gzip]
+enabled = true

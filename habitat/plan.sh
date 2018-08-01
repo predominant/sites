@@ -7,22 +7,21 @@ pkg_description="Personal website of Graham Weldon"
 pkg_upstream_url="https://grahamweldon.com"
 pkg_deps=(
   core/coreutils
-  core/nginx
+  core/caddy
 )
 pkg_build_deps=(
   core/hugo
   core/node
 )
-pkg_svc_run="nginx -c ${pkg_svc_config_path}/nginx.conf"
+pkg_svc_run="caddy -conf ${pkg_svc_config_path}/Caddyfile"
 pkg_exports=(
-  [port]=srv.port
-  [ssl-port]=srv.ssl.port
+  [http-port]=http.port
+  [https-port]=https.port
 )
-pkg_exposes=(port ssl-port)
+pkg_exposes=(http-port https-port)
 
 do_build() {
   local theme_name=$(hugo config | grep 'theme = ' | awk -F'"' '{print $2}')
-  attach
   # Build theme assets
   build_line "Building theme assets"
   pushd "themes/${theme_name}" > /dev/null
