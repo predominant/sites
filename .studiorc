@@ -1,0 +1,6 @@
+gw_install_tools() {
+  hab pkg install core/nano --binlink
+  hab pkg install core/curl --binlink
+}
+
+gw_install_tools

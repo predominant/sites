@@ -7,4 +7,4 @@ weight: 50
 disqus_enable: false
 ---
 
-TODO.
+Please [contact me](/contact) to get a copy of my CV.

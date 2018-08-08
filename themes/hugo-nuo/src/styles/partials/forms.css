@@ -1,0 +1,35 @@
+.basic-form .row {
+  margin-bottom: 22px;
+}
+
+.basic-form .row > label span {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  vertical-align: top;
+  padding: 12px 25px;
+  width: 150px;
+}
+
+.basic-form textarea,
+.basic-form input {
+  box-sizing: border-box;
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 12px;
+  width: 240px;
+  margin-top: 6px;
+}
+
+.basic-form button{
+  display: block;
+  border-radius: 2px;
+  background-color: var(--primary);
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 22px 14px 12px;
+  border: 0;
+  margin: 20px 155px 0;
+  width: 240px;
+}
