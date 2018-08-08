@@ -2,7 +2,7 @@
 title: "What is Habitat?"
 date: 2018-08-07T00:00:00+09:00
 highlight: false
-draft: true
+draft: false
 tags: ['habitat', 'deployment']
 ---
 
