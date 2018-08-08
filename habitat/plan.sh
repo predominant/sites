@@ -11,7 +11,7 @@ pkg_deps=(
   core/cacerts
 )
 pkg_build_deps=(
-  core/hugo
+  rakops/hugo
   core/node
   core/tar
 )
