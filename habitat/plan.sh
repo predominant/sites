@@ -8,6 +8,7 @@ pkg_upstream_url="https://grahamweldon.com"
 pkg_deps=(
   core/caddy
   core/coreutils
+  core/cacerts
 )
 pkg_build_deps=(
   core/hugo
