@@ -4,3 +4,7 @@ root {{pkg.path}}/public
 gzip
 {{/if ~}}
 log stdout
+redir 301 {
+  import {{pkg.svc_config_path}}/redir_301_removed.conf
+  import {{pkg.svc_config_path}}/redir_301_moved.conf
+}
