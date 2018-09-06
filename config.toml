@@ -5,6 +5,7 @@ theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = false
+DefaultContentLanguage = "en"
 
 # Disqus Username
 disqusShortname = "grahamweldon"
@@ -31,12 +32,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 [[menu.main]]
   name = "Tags"
   weight = 30
-  identifier = "tags"
-  url = "/tags/"
-
-[[menu.main]]
-  name = "Tags"
-  weight = 40
   identifier = "tags"
   url = "/tags/"
 
@@ -113,10 +108,10 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 [permalinks]
   post = "/post/:year/:month/:title/"
 
-# [languages]
-#   [languages.en]
-#     title = "English"
-#     weight = 1
-#   [languages.fr]
-#     title = "Français"
-#     weight = 2
+[languages]
+  [languages.en]
+    title = "English"
+    weight = 1
+  [languages.ja]
+    title = "日本語"
+    weight = 2
