@@ -112,3 +112,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 [permalinks]
   post = "/post/:year/:month/:title/"
+
+# [languages]
+#   [languages.en]
+#     title = "English"
+#     weight = 1
+#   [languages.fr]
+#     title = "Français"
+#     weight = 2
