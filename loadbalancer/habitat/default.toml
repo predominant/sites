@@ -1,0 +1,9 @@
+[http]
+port = 80
+
+[https]
+enabled = true
+port = 443
+
+[gzip]
+enabled = true
