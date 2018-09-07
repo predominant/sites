@@ -1,0 +1,24 @@
+{{ define "title" }}
+  Posts Archive
+  {{ if isset .Site.Params "seotitle" }} | {{ .Site.Params.seotitle }}{{ else }} | {{ .Site.Title }}{{ end }}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <section class="main post-detail terms-list">
+    <header class="post-header">
+      <h1 class="post-title">All Posts</h1>
+    </header>
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <h4>{{ .Key }}</h4>
+      <!-- ANOTHER WAY: <div style="margin-left: 2em" id="list"></div> -->
+      <ul class="post-list">
+        {{ range .Pages }}
+          {{ .Render "li" }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}
+

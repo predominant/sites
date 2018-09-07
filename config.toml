@@ -5,6 +5,7 @@ theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = false
+DefaultContentLanguage = "en"
 
 # Disqus Username
 disqusShortname = "grahamweldon"
@@ -36,7 +37,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 [[menu.main]]
   name = "Github"
-  weight = 40
+  weight = 50
   identifier = "works"
   url = "https://github.com/predominant"
 
@@ -103,3 +104,14 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
   # ICP Number (China Only)
   # ICP = "苏ICP备16005986号-2"
+
+[permalinks]
+  post = "/post/:year/:month/:title/"
+
+[languages]
+  [languages.en]
+    title = "English"
+    weight = 1
+  [languages.ja]
+    title = "日本語"
+    weight = 2

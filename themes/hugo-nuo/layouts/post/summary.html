@@ -1,3 +1,7 @@
+{{ define "title" }}
+  {{ .Title }} | {{ if isset .Site.Params "seotitle" }}{{ .Site.Params.seotitle }}{{ else }}{{ .Site.Title }}{{ end }}
+{{ end }}
+
 <article class="post-entry">
   <header class="post-header">
     <h3 class="post-title"><a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a></h3>

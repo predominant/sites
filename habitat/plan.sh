@@ -1,4 +1,4 @@
-pkg_name=grahamweldon-website
+pkg_name=site-grahamweldon
 pkg_origin=grahamweldon
 pkg_version="0.1.0"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
