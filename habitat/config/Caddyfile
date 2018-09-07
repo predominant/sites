@@ -6,3 +6,6 @@ gzip
 log stdout
 import {{pkg.svc_config_path}}/redir_301_removed.conf
 import {{pkg.svc_config_path}}/redir_301_moved.conf
+errors {
+  404 /404.html
+}
