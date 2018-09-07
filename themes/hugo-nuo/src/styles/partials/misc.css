@@ -85,3 +85,14 @@
     }
   }
 }
+
+.post-list {
+  padding-left: 20px;
+}
+.post-list li {
+  border-bottom: solid #eee 1px;
+  list-style: none;
+}
+.post-list .right {
+  float: right;
+}
