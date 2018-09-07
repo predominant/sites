@@ -1,0 +1,23 @@
+# ------------------------------
+# Common Settings
+# ------------------------------
+(common) {
+  gzip
+  tls graham@grahamweldon.com
+
+  header / {
+    Strict-Transport-Security "max-age=15768000"
+    X-XSS-Protection "1; mode=block"
+    X-Content-Type-Options "nosniff"
+    X-Frame-Options "DENY"
+  }
+}
+
+# ------------------------------
+grahamweldon.com {
+  import common
+  proxy / {{#eachAlive bind.grahamweldon.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    transparent
+    policy round_robin
+  }
+}
