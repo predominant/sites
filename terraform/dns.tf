@@ -52,7 +52,7 @@ resource "digitalocean_record" "a" {
   type = "A"
   name = "@"
   value = "${digitalocean_droplet.web0.ipv4_address}"
-  ttl = 3600
+  ttl = 1800
 }
 
 # CNAME Records
@@ -68,7 +68,7 @@ resource "digitalocean_record" "cname_dev" {
   domain = "${digitalocean_domain.grahamweldon_com.name}"
   type = "CNAME"
   name = "dev"
-  value = "@"
+  value = "grahamweldon.com."
   ttl = 7200
 }
 
@@ -76,6 +76,6 @@ resource "digitalocean_record" "cname_wild" {
   domain = "${digitalocean_domain.grahamweldon_com.name}"
   type = "CNAME"
   name = "*"
-  value = "@"
+  value = "grahamweldon.com."
   ttl = 7200
 }
