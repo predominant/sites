@@ -13,6 +13,10 @@ curl "https://raw.githubusercontent.com/habitat-sh/habitat/master/components/hab
 hab pkg install core/cacerts
 hab pkg install core/hab-sup
 
+# Setup hab user/group
+sudo -E useradd --system --no-create-home hab || true
+sudo -E groupadd --system hab || true
+
 # Install Habitat service
 mkdir -p /etc/systemd/system
 
@@ -22,6 +26,7 @@ Description=Habitat Supervisor
 [Service]
 ExecStartPre=/bin/bash -c "/bin/systemctl set-environment SSL_CERT_FILE=$(hab pkg path core/cacerts)/ssl/cert.pem"
 ExecStart=/bin/hab run --auto-update
+LimitNOFILE=65536
 [Install]
 WantedBy=default.target
 EOT
@@ -33,7 +38,3 @@ systemctl start hab-sup
 until hab svc status > /dev/null 2>&1; do
   sleep 1
 done
-
-hab svc load \
-  grahamweldon/site-grahamweldon \
-  --strategy at-once

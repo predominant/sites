@@ -1,5 +1,3 @@
-
-
 resource "digitalocean_droplet" "web0" {
   image    = "ubuntu-18-04-x64"
   name     = "web0"
@@ -13,5 +11,9 @@ resource "digitalocean_droplet" "web0" {
 
   provisioner "remote-exec" {
     script = "scripts/install.sh"
+  }
+
+  provisioner "remote-exec" {
+    script = "scripts/services.sh"
   }
 }
