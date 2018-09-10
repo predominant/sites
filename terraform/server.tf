@@ -1,3 +1,5 @@
+
+
 resource "digitalocean_droplet" "web0" {
   image    = "ubuntu-18-04-x64"
   name     = "web0"
@@ -10,10 +12,6 @@ resource "digitalocean_droplet" "web0" {
   ]
 
   provisioner "remote-exec" {
-    inline = [
-      "DEBIAN_FRONTEND=noninteractive sudo apt-get -y update",
-      "DEBIAN_FRONTEND=noninteractive sudo apt-get -y upgrade",
-      "curl https://raw.githubusercontent.com/habitat-sh/habitat/master/components/hab/install.sh | sudo bash"
-    ]
+    script = "scripts/install.sh"
   }
 }
