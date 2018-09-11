@@ -1,4 +1,5 @@
 import './styles/main.css';
+import 'mermaid';
 
 // Selected DOM elements
 const html = document.querySelector('html');
@@ -64,3 +65,4 @@ toTopBtn.addEventListener('click', () => {
 
 // HMR interface
 if (module.hot) module.hot.accept();
+// mermaid.initialize({startOnLoad:true});
