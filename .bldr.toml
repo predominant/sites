@@ -1,4 +1,4 @@
 [site-grahamweldon]
-plan_path = "grahamweldon.com"
+plan_path = "grahamweldon.com/habitat"
 [site-loadbalancer]
-plan_path = "loadbalancer"
+plan_path = "loadbalancer/habitat"
