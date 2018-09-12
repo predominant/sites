@@ -87,6 +87,6 @@ Habitat is taking over my life, and I love it. I can focus on building applicati
 [composer]: https://getcomposer.org/
 [fabric]: http://www.fabfile.org/
 [terraform]: https://www.terraform.io/
-[lb-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-load balancer
+[lb-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-loadbalancer
 [grahamweldon-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-grahamweldon
 [lb-config-1]: https://github.com/predominant/sites/commit/839ca2fb3d61a8c4464783f7b4118e08c2b9376f#diff-dbb06892188adedff6c62042513e966fR19
