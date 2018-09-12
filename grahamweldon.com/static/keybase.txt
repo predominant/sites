@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/predominant
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://grahamweldon.com
+  * I am predominant (https://keybase.io/predominant) on keybase.
+  * I have a public key with fingerprint 1586 F376 DBC5 4AD1 404C  FA76 0012 4ABA AAAD 46DF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010f8361d7a876638e1a48e5ca56fc75230e79c0c12dbf935368917cb3120a8c1a0a",
+            "fingerprint": "1586f376dbc54ad1404cfa7600124abaaaad46df",
+            "host": "keybase.io",
+            "key_id": "00124abaaaad46df",
+            "kid": "01010f8361d7a876638e1a48e5ca56fc75230e79c0c12dbf935368917cb3120a8c1a0a",
+            "uid": "b3c1e8435f93136b4dab2e1278ea9c19",
+            "username": "predominant"
+        },
+        "service": {
+            "hostname": "grahamweldon.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486948835,
+    "expire_in": 157680000,
+    "prev": "08f22f435a0a4258a5e76cd49be1b152b34447fc9cd8a5e04ba99620a16d5038",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMNHAnicrVJtUFRVGN5FEV0jEqmoHMeuUCMsuHfvN4NDzYhSQCUDQmaz3I9z4c66
+9267l0VYl4/EQRGQj4CYBImEQRAkAptZaAJDoFohG2gq0j5IMzJrshEY0TrX7Fd/
+O+fHmXPe53nO+zzzjgau0Bn0uuDnvZ3dO77VfzrSnKPLeHvNnBvhFCEPiXEjVnDv
+APsE4FQtVklAYhATCrdIYyQqUCxNkSRGA5TFaUDwLEGKPEWYMROgGN7Eo2aBExmM
+wEiaQSmew1CziaV5lDWxiBERJTkLOOwOSVahLErQpIhRpMDxBM4KKG7CeZGlSJMJ
+NeMsx8Il4KQgQmK24tQYsDmOdYJoSYFv8GL5p73/4v/nvnPuyXEYjwIaxwgIRDGS
+wwWWMwPUTNGAZXiU0YBO4JBZG4BouwMIik2SWejVY0RgwSXxQMtWM3MflOVgs1lb
+LkxbkaN5xQYl7A5FVXhlH6xmq6o9RiOreXYNnQs4y30dCyfJAkwTElzA4ZQUGYlB
+IZJXJU0YxWmSwWkaI4wI2G+XHMAiaQiCImkTXNo3wKVFRItmswg9QaO4maBZAlAk
+L+AMB1AOJcwchuM4JfIML2g1E86xDEPCbFBSIEwYjWjOXpMVqI3CPtksqOmUsmRW
+zXEAxHNuZO9Knd6gW+Xvp42ZzrDmoX+Hb2Qo6C/rbYr8Y09rxaXGwLNR/l3rt29q
+fz/BORj6Rkff6Ddbxj3GOurz+h+P0Lf3JuR/edlznY8q0M+JSri77ZX6w5Hdufye
+6bDSD+KCrQfq55nzOckN+TnPlF0sai26Za6aKDmfprLYUOyjj59VgVFamM4a2j0l
+d36UGGrUBb2wOqH7zIVTucUzvkNPHEAzjlS3uzKHeztIvjBw13Ctvu7iS/67PnY3
+FaTFZiaRCXzByZ8CugaRW+vk8s0pXyQUrfaFNeTP9955tzCefzkkqcf37DtXjuWF
+hoelxjOFRc2PWPRLYd7+rd5L791Q664EddSkOtuGA0R/6lhP8ULZ2vK4lq6NY3OD
+p7dvCf0sdcIb71j42pMxOLkxqic0qcYpfHhz/LFVsStqg7fN+zal16SkVjen3fzk
+wZ4+7+L2JKurIWDl3e82vOp5eOxu07ZpP9efgZajmfVv1kaOXt2RdFDfYJDJYd/u
+/oFJdX1HSvVs/8H4NmdfREt3xEAREm9jTiQvC8dnmk5f8It4MfPOAFexob3k54q1
+p9inGqMSqysXDUtVD7iWT06Nx14OmXRXgmuRv4dU7m8s3TwW7QxL7z381RLdOdt6
+5reZxXM3Eq+XpJfZktf9MPuLJfv76uWd3uCjzfFjxYbnno5LHDvu9pU/OVv161Ym
+3JpXJdtbuq6WKqXu1yfeOnHo2tTI306Xwo0=
+=N/du
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/predominant
+
+==================================================================
+
