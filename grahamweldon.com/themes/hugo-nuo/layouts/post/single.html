@@ -23,6 +23,7 @@
         {{ if .Site.Copyright }}{{ .Site.Copyright }}{{ end }}{{ if gt (div (sub now.Unix .Lastmod.Unix) 86400) 100 }}This post was published <strong>{{ div (sub now.Unix .Lastmod.Unix) 86400 }}</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.{{ end }}
       </p>
     </footer>
+    {{ partial "addthis" . }}
     {{ if ne .Params.comments false }}
       {{ if .Site.Params.changyan }}
       <div id="cyReward" role="cylabs" data-use="reward"></div>
@@ -41,4 +42,5 @@
     {{ end }}
   </section>
   {{ partial "footer.html" . }}
+  {{ partial "addthis-script" . }}
 {{ end }}
