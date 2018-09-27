@@ -89,3 +89,32 @@
     border: none;
   }
 }
+
+/* tip shortcode */
+.tip {
+  border: 1px solid rgba(0,0,0,.09);
+  min-height: 64px;
+
+  & .tip-icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    display: block;
+    background-image: url('../images/info.svg');
+    background-size: 64px;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+  }
+  & h3 {
+    margin: 0;
+  }
+  & h3,
+  & .admonition-content {
+    color: #242424;
+    opacity: .5;
+
+    & p {
+      margin: 0;
+    }
+  }
+}
