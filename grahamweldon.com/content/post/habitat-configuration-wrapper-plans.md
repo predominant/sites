@@ -2,7 +2,7 @@
 title: "Habitat configuration/wrapper plans"
 date: 2018-09-27T00:00:00+09:00
 highlight: false
-draft: true
+draft: false
 tags: ['habitat', 'configuration', 'development']
 ---
 
