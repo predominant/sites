@@ -3,7 +3,7 @@ title: Building tests for Habitat
 date: 2018-09-20T00:00:00+09:00
 highlight: false
 draft: false
-tags: ['habitat', 'testing', 'deployment', 'bash']
+tags: ['habitat', 'testing', 'deployment', 'bash', 'development']
 ---
 
 I've been contributing to [Habitat][habitat] for [a little while now][habitat-contributors]. Mostly in the capacity of contributions to [core-plans][core-plans], but occasionally some changes to the [on-premise-builder][on-prem-builder] and the [Habitat project][habitat-repo] itself. I've posted about my reasons for preferring Habitat [previously][post-archive], today I want to focus on the evolution of my testing for Habitat.

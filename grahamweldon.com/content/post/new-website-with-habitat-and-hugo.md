@@ -3,7 +3,7 @@ title: New website with Habitat and Hugo
 date: 2018-09-11T00:00:00+09:00
 highlight: false
 draft: false
-tags: ['habitat', 'web development', 'hugo']
+tags: ['habitat', 'web', 'development', 'hugo']
 ---
 
 I recently did a complete overhaul of [my website](/).
