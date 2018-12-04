@@ -21,3 +21,9 @@ grahamweldon.com {
     policy round_robin
   }
 }
+
+www.grahamweldon.com {
+  redir 301 {
+    https://grahamweldon.com{uri}
+  }
+}
