@@ -27,3 +27,18 @@ www.grahamweldon.com {
     https://grahamweldon.com{uri}
   }
 }
+
+# ------------------------------
+play.grahamweldon.com {
+  import common
+  proxy / {{#eachAlive bind.play-grahamweldon.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    transparent
+    policy round_robin
+  }
+}
+
+www.play.grahamweldon.com {
+  redir 301 {
+    https://play.grahamweldon.com{uri}
+  }
+}
