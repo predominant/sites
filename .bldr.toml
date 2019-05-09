@@ -2,3 +2,5 @@
 plan_path = "grahamweldon.com/habitat"
 [site-loadbalancer]
 plan_path = "loadbalancer/habitat"
+[site-rtmp]
+plan_path = "rtmp"
