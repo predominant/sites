@@ -4,9 +4,13 @@ pkg_version="2019.05.09.0"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=("Apache-2.0")
 pkg_description="Nginx based RTMP Relay Service"
-pkg_dirname="nginx-1.16.0"
+nginx_version=1.16.0
+rtmp_version=1.2.1
+rtmp_dirname="nginx-rtmp-module-${rtmp_version}"
+rtmp_shasum=87aa597400b0b5a05274ee2d23d8cb8224e12686227a0abe31d783b3a645ea37
+pkg_dirname="nginx-${nginx_version}"
 pkg_source="https://nginx.org/download/${pkg_dirname}.tar.gz"
-pkg_upstream_url=https://nginx.org/
+pkg_upstream_url=https://grahamweldon.com
 pkg_shasum=4fd376bad78797e7f18094a00f0f1088259326436b537eb5af69b01be2ca1345
 pkg_deps=(
   core/glibc
@@ -27,20 +31,16 @@ pkg_bin_dirs=(sbin)
 pkg_include_dirs=(include)
 pkg_svc_run="nginx -c ${pkg_svc_config_path}/nginx.conf"
 pkg_svc_user="root"
-pkg_exports=(
-  [port]=port
-)
 pkg_exposes=(port)
 pkg_exports=(
-  [port]=port
+  [port]=rtmp.server.port
 )
 pkg_exposes=(port)
-
-rtmp_version=1.2.1
 
 do_download() {
   do_default_download
-  download_file "https://github.com/arut/nginx-rtmp-module/archive/v${rtmp_version}.tar.gz" "nginx-rtmp-module-${rtmp_version}.tar.gz" "x"
+  download_file "https://github.com/arut/nginx-rtmp-module/archive/v${rtmp_version}.tar.gz" "nginx-rtmp-module-${rtmp_version}.tar.gz"
+  verify_file "nginx-rtmp-module-${rtmp_version}.tar.gz" "${rtmp_shasum}"
   unpack_file "nginx-rtmp-module-${rtmp_version}.tar.gz"
 }
 
@@ -81,7 +81,7 @@ do_build() {
     --with-http_slice_module \
     --with-cc-opt="${CFLAGS}" \
     --with-ld-opt="${LDFLAGS}" \
-    --add-module="${HAB_CACHE_SRC_PATH}/nginx-rtmp-module-${rtmp_version}"
+    --add-module="${HAB_CACHE_SRC_PATH}/${rtmp_dirname}"
 
   make
 }
@@ -90,4 +90,5 @@ do_install() {
   make install
   mkdir -p "${pkg_prefix}/sbin"
   cp "${HAB_CACHE_SRC_PATH}/${pkg_dirname}/objs/nginx" "${pkg_prefix}/sbin"
+  cp "${HAB_CACHE_SRC_PATH}/${rtmp_dirname}/stat.xsl" "${pkg_prefix}/var"
 }
