@@ -1,0 +1,12 @@
+worker_processes = "auto"
+
+[events]
+worker_connections = 1024
+
+[rtmp]
+[rtmp.server]
+port = 1935
+
+[http]
+[http.server]
+port = 80

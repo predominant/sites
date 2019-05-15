@@ -8,3 +8,7 @@ hab svc load \
   grahamweldon/site-loadbalancer \
   --strategy at-once \
   --bind grahamweldon:site-grahamweldon.default
+
+hab svc load \
+  grahamweldon/site-rtmp \
+  --strategy at-once
