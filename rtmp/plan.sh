@@ -90,5 +90,5 @@ do_install() {
   make install
   mkdir -p "${pkg_prefix}/sbin"
   cp "${HAB_CACHE_SRC_PATH}/${pkg_dirname}/objs/nginx" "${pkg_prefix}/sbin"
-  cp "${HAB_CACHE_SRC_PATH}/${rtmp_dirname}/stat.xsl" "${pkg_prefix}/var"
+  cp "${HAB_CACHE_SRC_PATH}/${rtmp_dirname}/stat.xsl" "${pkg_prefix}/html"
 }
