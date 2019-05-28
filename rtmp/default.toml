@@ -6,6 +6,11 @@ worker_connections = 1024
 [rtmp]
 [rtmp.server]
 port = 1935
+ping = "30s"
+chunk_size = 4096
+[rtmp.server.application]
+live = "on"
+idle_streams = "off"
 
 [http]
 [http.server]
