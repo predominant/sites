@@ -2,7 +2,6 @@ baseURL = ""
 languageCode = "en"
 title = "Graham Weldon"
 theme = "hugo-nuo"
-enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = false
 DefaultContentLanguage = "en"
@@ -15,6 +14,9 @@ googleAnalytics = "UA-289856-5"
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
+
+# Robots.txt file is statically created, and placed in static/
+enableRobotsTXT = false
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
