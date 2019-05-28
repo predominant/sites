@@ -3,7 +3,7 @@ root {{pkg.path}}/public
 {{#if cfg.gzip.enabled ~}}
 gzip
 {{/if ~}}
-log stdout
+log / stdout "{combined}"
 import {{pkg.svc_config_path}}/redir_301_removed.conf
 import {{pkg.svc_config_path}}/redir_301_moved.conf
 errors {
