@@ -12,3 +12,7 @@ hab svc load \
 hab svc load \
   grahamweldon/site-rtmp \
   --strategy at-once
+
+hab svc load \
+  core/minio \
+  --strategy at-once
