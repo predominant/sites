@@ -117,3 +117,8 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   [languages.ja]
     title = "日本語"
     weight = 2
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
