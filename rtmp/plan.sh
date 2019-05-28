@@ -1,6 +1,6 @@
 pkg_name=site-rtmp
 pkg_origin=grahamweldon
-pkg_version="2019.05.15.0"
+pkg_version="2019.05.28.0"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=("Apache-2.0")
 pkg_description="Nginx based RTMP Relay Service"
