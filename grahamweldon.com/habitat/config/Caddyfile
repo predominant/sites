@@ -9,3 +9,10 @@ import {{pkg.svc_config_path}}/redir_301_moved.conf
 errors {
   404 /404.html
 }
+expires {
+  match .js$ 1h
+  match .css$ 1h
+  match .png$ 1h
+  match .jpg$ 1h
+  match .svg$ 1h
+}
