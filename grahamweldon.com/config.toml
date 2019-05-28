@@ -49,7 +49,7 @@ enableRobotsTXT = false
   avatar = "/img/avatar.jpg"
   seotitle = "Graham Weldon"
   # subtitle = "~ Posts and Research ~"
-  description = "Graham Weldon's personal site."
+  description = "Graham Weldon's personal site containing blog posts about various open source, game development and more."
   paginate = 10
 
   # Choose your social networks

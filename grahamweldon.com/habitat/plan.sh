@@ -1,6 +1,6 @@
 pkg_name=site-grahamweldon
 pkg_origin=grahamweldon
-pkg_version="2019.05.29.1"
+pkg_version="2019.05.29.2"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=("Apache-2.0")
 pkg_description="Personal website of Graham Weldon"
