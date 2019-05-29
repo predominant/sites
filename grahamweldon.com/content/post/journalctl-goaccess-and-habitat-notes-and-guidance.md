@@ -61,7 +61,7 @@ Note, however, that we still have habitat supervisor and journald information ta
 
 Fire up a journalctl tail with goaccess:
 
-```
+```text
 journalctl -f -u hab-sup | \
   grep --line-buffered --color=never "site-grahamweldon" | \
   goaccess -f -
