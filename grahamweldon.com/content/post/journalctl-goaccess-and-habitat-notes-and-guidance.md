@@ -79,4 +79,4 @@ Choose the `NCSA Combined Log Format` by pressing `[SPACE]`. Then press `c` to c
 
 Press `[ENTER]` twice, and you'll be presented with the console UI for goaccess. Sample below:
 
-![](uploads/2019/05/29/goaccess_screenshot.png)
+![](/uploads/2019/05/29/goaccess_screenshot.png)
