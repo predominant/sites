@@ -34,8 +34,8 @@ I’d love some feedback on this. Any comments, suggestions or anything. I’m n
 
 Coming up next, I will be adding new tile types with various colours and game modifiers. The first modified tile “Water” is currently in deveopment, it has a blue colour, and adjusts movement to 0.5 actual speed, to simulate the motion in water.
 
-[processing]: https://processing.org
-[processingjs]: http://processingjs.org
-[jwm]: http://plural.cc
-[terraria]: http://terraria.org
-[jase-twitter]: https://twitter.com/jasedeacon
+[processing]: https://processing.org "Processing web site"
+[processingjs]: http://processingjs.org "Processing.JS web site"
+[jwm]: http://plural.cc "John Marsden's personal website"
+[terraria]: http://terraria.org "Terraia, the game!"
+[jase-twitter]: https://twitter.com/jasedeacon "Jase Deacon's Twitter page"

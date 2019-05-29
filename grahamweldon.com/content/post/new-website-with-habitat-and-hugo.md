@@ -78,15 +78,15 @@ Overall I'm happy with Hugo and the move to a static site, over the requirement 
 Habitat is taking over my life, and I love it. I can focus on building applications, and almost completely remove the need to consider deployment targets. As long as I can build my application and produce an artifact, it will run on my virtual machine, container system, or bare metal.. Thats truly liberating.
 
 
-[hugo]: https://gohugo.io/
-[cakephp]: https://cakephp.org
-[nginx]: https://www.nginx.com/
-[caddy]: https://caddyserver.com/
-[letsencrypt]: https://letsencrypt.org/
-[habitat]: https://www.habitat.sh/
-[composer]: https://getcomposer.org/
-[fabric]: http://www.fabfile.org/
-[terraform]: https://www.terraform.io/
-[lb-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-loadbalancer
-[grahamweldon-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-grahamweldon
-[lb-config-1]: https://github.com/predominant/sites/commit/839ca2fb3d61a8c4464783f7b4118e08c2b9376f#diff-dbb06892188adedff6c62042513e966fR19
+[hugo]: https://gohugo.io/ "Hugo home page"
+[cakephp]: https://cakephp.org "CakePHP project home page"
+[nginx]: https://www.nginx.com/ "Nginx web site"
+[caddy]: https://caddyserver.com/ "Caddy web server home page"
+[letsencrypt]: https://letsencrypt.org/ "Let's encypt home page"
+[habitat]: https://www.habitat.sh/ "Habitat home page"
+[composer]: https://getcomposer.org/ "Composer propject page"
+[fabric]: http://www.fabfile.org/ "Fabfile project web site"
+[terraform]: https://www.terraform.io/ "Hashicorp Terraform home page"
+[lb-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-loadbalancer "Graham Weldon's load balancer pacakge"
+[grahamweldon-package]: https://bldr.habitat.sh/#/pkgs/grahamweldon/site-grahamweldon "Graham Weldon's home page package"
+[lb-config-1]: https://github.com/predominant/sites/commit/839ca2fb3d61a8c4464783f7b4118e08c2b9376f#diff-dbb06892188adedff6c62042513e966fR19 "Load balancer commit"

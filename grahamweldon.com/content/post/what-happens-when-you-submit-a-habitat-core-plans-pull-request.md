@@ -139,7 +139,7 @@ Its not an exact science. And its not paid work. We've got some great volunteers
 
 Habitat's open source teams are awesome, and I'm super proud to be a part of the core-plans maintainers.
 
-[core-plans]: https://github.com/habitat-sh/core-plans
-[rfcs]: https://github.com/habitat-sh/core-plans-rfcs/tree/master/_RFCs
-[readme-template]: https://github.com/habitat-sh/core-plans/blob/master/README_TEMPLATE_FOR_PLANS.md
-[php-pr]: https://github.com/habitat-sh/core-plans/pull/1946/files
+[core-plans]: https://github.com/habitat-sh/core-plans "Habitat core-plans repository"
+[rfcs]: https://github.com/habitat-sh/core-plans-rfcs/tree/master/_RFCs "Habitat core-plans RFCs"
+[readme-template]: https://github.com/habitat-sh/core-plans/blob/master/README_TEMPLATE_FOR_PLANS.md "Habitat README file template"
+[php-pr]: https://github.com/habitat-sh/core-plans/pull/1946/files "Habitat pull request for PHP"

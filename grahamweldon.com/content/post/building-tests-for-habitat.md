@@ -130,16 +130,16 @@ Test your software.
 
 ![Just do it](/uploads/2018/09/20/shia-do-it.gif)
 
-[habitat]: https://www.habitat.sh/
-[habitat-contributors]: https://github.com/habitat-sh/core-plans/graphs/contributors
-[core-plans]: https://github.com/habitat-sh/core-plans
-[on-prem-builder]: https://github.com/habitat-sh/on-prem-builder
-[habitat-repo]: https://github.com/habitat-sh/habitat
-[post-archive]: /post
-[testing-1]: https://github.com/habitat-sh/core-plans/pull/1644
-[testing-2]: https://github.com/habitat-sh/core-plans/pull/1741/files
-[consul]: https://www.consul.io/
-[consul-plan]: https://github.com/habitat-sh/core-plans/tree/master/consul
-[bats]: https://github.com/sstephenson/bats
-[testing-3]: https://github.com/habitat-sh/core-plans/pull/1858/files
-[build-test-pr]: https://github.com/habitat-sh/habitat/pull/5605
+[habitat]: https://www.habitat.sh/ "Habitat home page"
+[habitat-contributors]: https://github.com/habitat-sh/core-plans/graphs/contributors "Contributors to the Habitat Core Plans project"
+[core-plans]: https://github.com/habitat-sh/core-plans "Habitat core-plans repository"
+[on-prem-builder]: https://github.com/habitat-sh/on-prem-builder "Habitat On-premise builder"
+[habitat-repo]: https://github.com/habitat-sh/habitat "Habitat repository for the core project"
+[post-archive]: /post "Post archive"
+[testing-1]: https://github.com/habitat-sh/core-plans/pull/1644 "Testing sample 1"
+[testing-2]: https://github.com/habitat-sh/core-plans/pull/1741/files "Testing sample 2"
+[consul]: https://www.consul.io/ "Hashicorp consul web page"
+[consul-plan]: https://github.com/habitat-sh/core-plans/tree/master/consul "Consul plan for Habitat"
+[bats]: https://github.com/sstephenson/bats "BATS testing repository"
+[testing-3]: https://github.com/habitat-sh/core-plans/pull/1858/files "Testing sample 3"
+[build-test-pr]: https://github.com/habitat-sh/habitat/pull/5605 "Habitat pull request to include default testing approach"

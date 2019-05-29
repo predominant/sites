@@ -58,9 +58,9 @@ Habitat has changed the way I work, the way I think about application deployment
 
 {{< tweet 1023753351962349568 >}}
 
-[habitat]: https://www.habitat.sh
-[habitat-windows]: https://www.habitat.sh/blog/2017/07/Habitat-on-Windows/
-[go]: https://golang.org/
-[consul]: https://www.consul.io/
-[envoy]: https://www.envoyproxy.io/
-[habitat-binding]: https://www.habitat.sh/docs/developing-packages/#pkg-binds
+[habitat]: https://www.habitat.sh "Habitat home page"
+[habitat-windows]: https://www.habitat.sh/blog/2017/07/Habitat-on-Windows/ "Announcement for Habitat on Windows"
+[go]: https://golang.org/ "Golang home page"
+[consul]: https://www.consul.io/ "Hashicorp Consul home page"
+[envoy]: https://www.envoyproxy.io/ "Envopy project web site"
+[habitat-binding]: https://www.habitat.sh/docs/developing-packages/#pkg-binds "Documentation for Habitat package bindings"

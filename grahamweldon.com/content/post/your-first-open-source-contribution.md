@@ -52,4 +52,4 @@ Submit that pull request!
 
 Do it!
 
-[habitat-configuration-plans]: https://grahamweldon.com/post/2018/09/habitat-configuration/wrapper-plans/
+[habitat-configuration-plans]: https://grahamweldon.com/post/2018/09/habitat-configuration/wrapper-plans/ "My blog post about Habitat configuration plans"

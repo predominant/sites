@@ -130,5 +130,5 @@ I haven't discussed a specific monitoring tool or technology, as I feel this app
 
 How are you doing testing and monitoring of services? How far do you go?
 
-[nginx]: https://www.nginx.com/
-[caddy]: https://caddyserver.com/
+[nginx]: https://www.nginx.com/ "Nginx official home page"
+[caddy]: https://caddyserver.com/ "Caddy web server home page"

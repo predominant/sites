@@ -7,11 +7,11 @@ draft: false
 tags: ['habitat', 'journalctl', 'goaccess', 'logging', 'administration', 'systemd', 'caddy']
 ---
 
-You've got a modern server, its got systemd, journalctl, and you have Habitat supervisor running a Caddy webserver. What an amazing setup of great technology! Gluing these pieces together is easy, but I've found a couple of places where I wish documentation had been better. This post serves as a notice to myself and anyone else that is interested in how to get [goaccess](https://goaccess.io/) working in this new modern ecosystem.
+You've got a modern server, its got systemd, journalctl, and you have Habitat supervisor running a Caddy webserver. What an amazing setup of great technology! Gluing these pieces together is easy, but I've found a couple of places where I wish documentation had been better. This post serves as a notice to myself and anyone else that is interested in how to get [goaccess](https://goaccess.io/ "Goaccess web site") working in this new modern ecosystem.
 
 ## Install goaccess
 
-Simple step. I chose to install this directly from the [Habitat core plans](https://github.com/habitat-sh/core-plans) like so:
+Simple step. I chose to install this directly from the [Habitat core plans](https://github.com/habitat-sh/core-plans "Habitat core plans repository") like so:
 
 ```shell
 hab pkg install core/goaccess --binlink
@@ -45,7 +45,7 @@ Tog et the log output in a more common format, the following directive in your `
 log / stdout "{combined}"
 ```
 
-Full details on the various log options and configuration can be found on the [Caddyfile log documentation](https://caddyserver.com/docs/log).
+Full details on the various log options and configuration can be found on the [Caddyfile log documentation](https://caddyserver.com/docs/log "Caddyfile documentation for logging").
 
 The result is a log entry lookging like the following:
 
@@ -79,4 +79,4 @@ Choose the `NCSA Combined Log Format` by pressing `[SPACE]`. Then press `c` to c
 
 Press `[ENTER]` twice, and you'll be presented with the console UI for goaccess. Sample below:
 
-![](/uploads/2019/05/29/goaccess_screenshot.png)
+![goaccess screenshot with sample web activity displayed](/uploads/2019/05/29/goaccess_screenshot.png)

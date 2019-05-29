@@ -33,6 +33,6 @@ Whats more, with this approach you can have multiple versions installed, and rol
 
 I've found this is a great way to get people involved in the basic of Habitat, and to introduce it into the systems administration/maintenance workflow. After some time, once confidence has been gained, you can move a little further by starting to replace some services with Habitat based services. But that is a post topic for another time.
 
-[habitat]: https://www.habitat.sh/
-[redis]: https://redis.io/
-[rakuten]: https://rakuten.co.jp/
+[habitat]: https://www.habitat.sh/ "Habitat home page"
+[redis]: https://redis.io/ "Redis web site"
+[rakuten]: https://rakuten.co.jp/ "Rakuten home page in Japan"

@@ -161,9 +161,9 @@ The best scenario is to take the core plans as a dependency for binaries that yo
 
 Much like a Linux distribution's package manager, Habitat will ship default configs that work for trivial/common setups. Anything beyond that simple usecase is the responsibility of the user (you) and belongs in a configuration plan.
 
-[habitat]: https://www.habitat.sh/
-[nginx]: https://www.nginx.com/
-[nginx-package]: https://bldr.habitat.sh/#/pkgs/core/nginx
-[nginx-plan]: https://github.com/habitat-sh/core-plans/blob/master/nginx/plan.sh
-[mongodb-pr]: https://github.com/habitat-sh/core-plans/pull/1771
-[install-habitat]: https://www.habitat.sh/docs/install-habitat/
+[habitat]: https://www.habitat.sh/ "Habitat home page"
+[nginx]: https://www.nginx.com/ "Nginx web site"
+[nginx-package]: https://bldr.habitat.sh/#/pkgs/core/nginx "Nginx package for Habitat"
+[nginx-plan]: https://github.com/habitat-sh/core-plans/blob/master/nginx/plan.sh "Nginx Habitat plan"
+[mongodb-pr]: https://github.com/habitat-sh/core-plans/pull/1771 "MongoDB pull request for Habitat core plans"
+[install-habitat]: https://www.habitat.sh/docs/install-habitat/ "Install Habitat instructions"
