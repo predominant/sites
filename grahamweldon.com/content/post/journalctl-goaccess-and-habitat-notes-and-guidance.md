@@ -39,7 +39,7 @@ And of course, there is also the journald information prefixed to the front to h
 Mar 06 09:33:28 web0 hab[1072]: site-grahamweldon.default(O): 178.128.58.99 - - [06/Mar/2019:09:33:28 +0000] "GET / HTTP/1.1" 200 4476
 ```
 
-Tog et the log output in a more common format, the following directive in your `Caddyfile` should be created:
+To get the log output in a more common format, the following directive in your `Caddyfile` should be created:
 
 ```text
 log / stdout "{combined}"
