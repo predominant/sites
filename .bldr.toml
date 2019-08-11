@@ -1,6 +1,9 @@
 [site-grahamweldon]
 plan_path = "grahamweldon.com/habitat"
+paths = ["grahamweldon.com/*"]
 [site-loadbalancer]
 plan_path = "loadbalancer/habitat"
+paths = ["loadbalancer/*"]
 [site-rtmp]
 plan_path = "rtmp"
+paths = ["rtmp/*"]
