@@ -25,7 +25,7 @@ Simply run the proxy on one of your Habitat/Biome supervisor servers, and then l
 
 ```bash
 hab svc load predominant/census-proxy
-hab svc load prdominant/census-viewer
+hab svc load predominant/census-viewer
 ```
 
 By default, the proxy loads on port `5555`. The viewer loads on port `80`.
