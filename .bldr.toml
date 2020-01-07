@@ -1,3 +1,9 @@
+[site-elasticsearch]
+plan_path = "elasticsearch/habitat"
+paths = ["elasticsearch/*"]
+[site-journalbeat]
+plan_path = "journalbeat/habitat"
+paths = ["journalbeat/*"]
 [site-grahamweldon]
 plan_path = "grahamweldon.com/habitat"
 paths = ["grahamweldon.com/*"]
