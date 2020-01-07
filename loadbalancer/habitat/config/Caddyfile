@@ -29,17 +29,17 @@ www.grahamweldon.com {
 }
 
 # ------------------------------
-nekodiabetes.com {
-  import common
-  proxy / {{#eachAlive bind.nekodiabetes.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
-    transparent
-    policy round_robin
-  }
-}
-
-www.nekodiabetes.com {
-  redir 301 {
-    https://nekodiabetes.com{uri}
-  }
-}
+# nekodiabetes.com {
+#   import common
+#   proxy / {{#eachAlive bind.nekodiabetes.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+#     transparent
+#     policy round_robin
+#   }
+# }
+# 
+# www.nekodiabetes.com {
+#   redir 301 {
+#     https://nekodiabetes.com{uri}
+#   }
+# }
 
