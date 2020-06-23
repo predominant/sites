@@ -1,6 +1,6 @@
 # grahamweldon.com
 
-This is the code / content for my personal website.
+This is the code / content for my personal website. https://grahamweldon.com
 
 ## Local Development
 
