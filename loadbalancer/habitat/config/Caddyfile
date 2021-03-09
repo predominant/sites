@@ -29,6 +29,21 @@ www.grahamweldon.com {
 }
 
 # ------------------------------
+rustymothertruckers.com {
+  import common
+  proxy / {{#eachAlive bind.rustymothertruckers.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    transparent
+    policy round_robin
+  }
+}
+
+www.rustymothertruckers.com {
+  redir 301 {
+    https://rustymothertruckers.com{uri}
+  }
+}
+
+# ------------------------------
 # nekodiabetes.com {
 #   import common
 #   proxy / {{#eachAlive bind.nekodiabetes.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{

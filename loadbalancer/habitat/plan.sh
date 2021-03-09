@@ -15,6 +15,7 @@ pkg_exports=(
 pkg_exposes=(http-port https-port)
 pkg_binds=(
   [grahamweldon]="http-port"
+  [rustymothertruckers]="http-port"
 )
 
 # Require root for port < 1024 binding.
