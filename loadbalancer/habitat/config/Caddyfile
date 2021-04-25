@@ -29,6 +29,12 @@ www.grahamweldon.com {
 }
 
 # ------------------------------
+dreamlo-proxy.grahamweldon.com {
+  import common
+  proxy / http://dreamlo.com
+}
+
+# ------------------------------
 rustymothertruckers.com {
   import common
   proxy / {{#eachAlive bind.rustymothertruckers.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
@@ -57,4 +63,3 @@ www.rustymothertruckers.com {
 #     https://nekodiabetes.com{uri}
 #   }
 # }
-
