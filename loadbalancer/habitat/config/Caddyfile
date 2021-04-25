@@ -31,7 +31,10 @@ www.grahamweldon.com {
 # ------------------------------
 dreamlo-proxy.grahamweldon.com {
   import common
-  proxy / http://dreamlo.com
+  proxy / http://dreamlo.com {
+    header_downstream Access-Control-Allow-Origin *
+    header_downstream Access-Control-Allow-Methods "GET"
+  }
 }
 
 # ------------------------------
