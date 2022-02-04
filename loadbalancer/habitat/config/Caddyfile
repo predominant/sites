@@ -2,67 +2,56 @@
 # Common Settings
 # ------------------------------
 (common) {
-  gzip
+  encode gzip
   tls graham@grahamweldon.com
 
-  header / {
-    Strict-Transport-Security "max-age=15768000"
-    X-XSS-Protection "1; mode=block"
-    X-Content-Type-Options "nosniff"
-    X-Frame-Options "DENY"
+  header {
+    Strict-Transport-Security max-age=15768000
+    X-XSS-Protection 1; mode=block
+    X-Content-Type-Options nosniff
+    X-Frame-Options DENY
   }
 }
 
 # ------------------------------
 grahamweldon.com {
   import common
-  proxy / {{#eachAlive bind.grahamweldon.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
-    transparent
-    policy round_robin
+  reverse_proxy {{#eachAlive bind.grahamweldon.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    lb_policy round_robin
   }
 }
-
 www.grahamweldon.com {
-  redir 301 {
-    https://grahamweldon.com{uri}
-  }
+  redir https://grahamweldon.com{uri} permanent
 }
 
 # ------------------------------
 dreamlo-proxy.grahamweldon.com {
   import common
-  proxy / http://dreamlo.com {
-    header_downstream Access-Control-Allow-Origin *
-    header_downstream Access-Control-Allow-Methods "GET"
+  reverse_proxy http://dreamlo.com {
+    header_down Access-Control-Allow-Origin *
+    header_down Access-Control-Allow-Methods "GET"
   }
 }
 
 # ------------------------------
 rustymothertruckers.com {
   import common
-  proxy / {{#eachAlive bind.rustymothertruckers.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
-    transparent
-    policy round_robin
+  reverse_proxy {{#eachAlive bind.rustymothertruckers.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    lb_policy round_robin
   }
 }
-
 www.rustymothertruckers.com {
-  redir 301 {
-    https://rustymothertruckers.com{uri}
-  }
+  redir https://rustymothertruckers.com{uri} permanent
 }
 
 # ------------------------------
 # nekodiabetes.com {
 #   import common
-#   proxy / {{#eachAlive bind.nekodiabetes.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
-#     transparent
-#     policy round_robin
+#   reverse_proxy {{#eachAlive bind.nekodiabetes.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+#     lb_policy round_robin
 #   }
 # }
 # 
 # www.nekodiabetes.com {
-#   redir 301 {
-#     https://nekodiabetes.com{uri}
-#   }
+#   redir https://nekodiabetes.com{uri} permanent
 # }

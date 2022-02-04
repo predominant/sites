@@ -1,3 +1,0 @@
-#!/bin/sh
-
-kill -USR1 "$(cat {{pkg.svc_pid_file}})"
