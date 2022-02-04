@@ -7,3 +7,6 @@ port = 443
 
 [gzip]
 enabled = true
+
+[log]
+enabled = false
