@@ -7,7 +7,7 @@ pkg_description="Front load balancer for all my sites"
 pkg_deps=(
   core/caddy
 )
-pkg_svc_run="caddy -conf ${pkg_svc_config_path}/Caddyfile"
+pkg_svc_run="caddy -conf ${pkg_svc_config_path}/Caddyfile -log ${svc_var_path}/caddy.log"
 pkg_exports=(
   [http-port]=http.port
   [https-port]=https.port
