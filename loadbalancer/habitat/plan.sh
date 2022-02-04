@@ -1,6 +1,6 @@
 pkg_name=site-loadbalancer
 pkg_origin=grahamweldon
-pkg_version="2021.03.09.0"
+pkg_version="2022.02.04.0"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=("Apache-2.0")
 pkg_description="Front load balancer for all my sites"
