@@ -14,7 +14,7 @@
 }
 
 # ------------------------------
-grahamweldon.com {
+grahamweldon.com, rocketshaped.com {
   import common
   reverse_proxy {{#eachAlive bind.grahamweldon.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
     lb_policy round_robin
