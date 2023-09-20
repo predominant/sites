@@ -46,7 +46,7 @@ www.rustymothertruckers.com {
 
 leaderboard.grahamweldon.com {
   import common
-  reverse_proxy http://127.0.0.0:8000 {
+  reverse_proxy http://0.0.0.0:8000 {
     lb_policy round_robin;
   }
 }
