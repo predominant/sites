@@ -34,6 +34,17 @@ dreamlo-proxy.grahamweldon.com {
 }
 
 # ------------------------------
+slavitica.net, slavitica.com {
+  import common
+  reverse_proxy {{#eachAlive bind.slavitica.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
+    lb_policy round_robin
+  }
+}
+www.slavitica.net, www.slavitica.com {
+  redir https://slavitica.net{uri} permanent
+}
+
+# ------------------------------
 rustymothertruckers.com {
   import common
   reverse_proxy {{#eachAlive bind.rustymothertruckers.members as |member| ~}}{{member.sys.ip}}:{{member.cfg.http-port}} {{/eachAlive ~}}{
